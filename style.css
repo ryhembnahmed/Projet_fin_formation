@@ -1,0 +1,129 @@
+h1,
+p {
+  text-align: center;
+}
+.logo {
+  width: 63px;
+  height: 48px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.logo:hover {
+  transform: rotate(180deg);
+}
+
+.container {
+  background-color: white;
+}
+
+.recipe {
+  background-color: whitesmoke;
+}
+hr {
+  color: #fff2e5;
+}
+.card-text {
+  text-align: left;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 1;
+  filter: alpha(opacity=50);
+  z-index: 9999;
+}
+.card-body {
+  height: 230px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+h1 {
+  color: #23b1a5;
+  text-shadow: 1px 1px 2px #442a9d, 0 0 0.6px blue, 0 0 0.2em #d7fffd;
+}
+.card-img-top:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.tip {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.tip:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card {
+  border-radius: 4px;
+}
+.pad {
+  padding-bottom: 20px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.border {
+  border-radius: 10px;
+}
+
+.m-1 {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.m-1:hover {
+  transform: rotate(180deg);
+}

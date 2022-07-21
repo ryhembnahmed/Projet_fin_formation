@@ -1,0 +1,35 @@
+body{
+    background-color: #f7e8f0;
+}
+.row{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.col-sm-6{
+    background-color:#f7e8f0 ;
+}
+img{
+    border-radius: 50% 20% / 10% 40%;
+    border: thick double #eab0d9;
+}
+.title{
+    margin-top: 40px;
+    color: #a374d5;
+    text-shadow: 1px 1px 2px #442a9d, 0 0 0.6px pink, 0 0 0.2em #d7fffd;
+    font-style: italic;
+}
+.enjoy{
+    margin-top: 50px;
+    text-align: center;
+}
+.sticky {
+    color: #442a9d;
+    position: sticky;
+    background-color: #eab0d9;
+    font-size: 20px;
+    border-radius: 25px;
+  }
+.sticky:hover{
+    color: white;
+    opacity: 0.5;
+}
