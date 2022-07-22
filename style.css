@@ -45,49 +45,6 @@ h1 {
   color: #23b1a5;
   text-shadow: 1px 1px 2px #442a9d, 0 0 0.6px blue, 0 0 0.2em #d7fffd;
 }
-.card-img-top:hover {
-  /* Start the shake animation and make the animation last for 0.5 seconds */
-  animation: shake 0.5s;
-
-  /* When the animation is finished, start again */
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% {
-    transform: translate(1px, 1px) rotate(0deg);
-  }
-  10% {
-    transform: translate(-1px, -2px) rotate(-1deg);
-  }
-  20% {
-    transform: translate(-3px, 0px) rotate(1deg);
-  }
-  30% {
-    transform: translate(3px, 2px) rotate(0deg);
-  }
-  40% {
-    transform: translate(1px, -1px) rotate(1deg);
-  }
-  50% {
-    transform: translate(-1px, 2px) rotate(-1deg);
-  }
-  60% {
-    transform: translate(-3px, 1px) rotate(0deg);
-  }
-  70% {
-    transform: translate(3px, 1px) rotate(-1deg);
-  }
-  80% {
-    transform: translate(-1px, -1px) rotate(1deg);
-  }
-  90% {
-    transform: translate(1px, 2px) rotate(0deg);
-  }
-  100% {
-    transform: translate(1px, -2px) rotate(-1deg);
-  }
-}
 
 .tip {
   border-radius: 4px;
@@ -98,11 +55,13 @@ h1 {
     0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
   padding: 14px 80px 18px 36px;
   cursor: pointer;
+  opacity:0.8;
 }
 
 .tip:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  opacity: 1;
 }
 
 .card {
@@ -126,4 +85,12 @@ body {
 
 .m-1:hover {
   transform: rotate(180deg);
+}
+
+.card-img-top:hover {
+  transform: scale(1.5);
+}
+
+.zoom-in{
+  overflow: hidden;
 }
